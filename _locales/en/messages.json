@@ -1,0 +1,84 @@
+{
+  "extensionName": {
+    "message": "Peek for Dia",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Open links in a floating preview over the current page, like Peek in Arc.",
+    "description": "Description of the extension in the extensions page and store."
+  },
+  "peekDialogLabel": {
+    "message": "Peek",
+    "description": "Accessible name of the floating preview."
+  },
+  "copyLink": {
+    "message": "Copy link",
+    "description": "Tooltip of the button that copies the previewed page's address."
+  },
+  "linkCopied": {
+    "message": "Link copied",
+    "description": "Tooltip shown briefly after the address was copied."
+  },
+  "openInNewTab": {
+    "message": "Open as tab",
+    "description": "Tooltip of the button that turns the preview into a normal tab."
+  },
+  "closePeek": {
+    "message": "Close (Esc)",
+    "description": "Tooltip of the button that closes the preview."
+  },
+  "optionsTitle": {
+    "message": "Peek settings",
+    "description": "Title of the settings page."
+  },
+  "optionsSitesHeading": {
+    "message": "Sites that open links in Peek",
+    "description": "Heading of the list of sites in the settings page."
+  },
+  "optionsSitesHelp": {
+    "message": "On these sites, clicking a link to another site opens it in Peek. You can also turn a site on or off with the extension's toolbar button.",
+    "description": "Explanation under the heading of the site list."
+  },
+  "optionsSitePlaceholder": {
+    "message": "slack.com",
+    "description": "Example shown in the empty field where a site is typed."
+  },
+  "optionsAddSite": {
+    "message": "Add",
+    "description": "Button that adds the typed site to the list."
+  },
+  "optionsRemoveSite": {
+    "message": "Remove",
+    "description": "Button that removes a site from the list."
+  },
+  "optionsNoSites": {
+    "message": "No sites yet.",
+    "description": "Shown when the site list is empty."
+  },
+  "optionsInvalidSite": {
+    "message": "Enter a site such as slack.com",
+    "description": "Shown when the typed text is not a valid site."
+  },
+  "optionsSaved": {
+    "message": "Saved",
+    "description": "Confirmation shown after a setting changes."
+  },
+  "badgeOn": {
+    "message": "On",
+    "description": "Short badge on the toolbar button when Peek is on for the current site. Keep it to 4 characters or fewer."
+  },
+  "actionTitleOn": {
+    "message": "Peek is on for $SITE$. Click to turn it off.",
+    "description": "Tooltip of the toolbar button when Peek is on for the current site.",
+    "placeholders": { "site": { "content": "$1", "example": "slack.com" } }
+  },
+  "actionTitleOff": {
+    "message": "Click to open links from $SITE$ in Peek.",
+    "description": "Tooltip of the toolbar button when Peek is off for the current site.",
+    "placeholders": { "site": { "content": "$1", "example": "slack.com" } }
+  },
+  "actionTitleUnavailable": {
+    "message": "Peek can't run on this page.",
+    "description": "Tooltip of the toolbar button on browser pages where the extension can't run."
+  }
+}
